@@ -1,0 +1,97 @@
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #11111a;
+  --bg-card: rgba(22, 22, 36, 0.7);
+  --bg-hover: rgba(30, 30, 46, 0.8);
+  --bg-input: rgba(15, 15, 24, 0.6);
+
+  --accent-pink: #ff6eb4;
+  --accent-purple: #b060ff;
+  --accent-blue: #60b4ff;
+  --accent-gradient: linear-gradient(135deg, #ff6eb4, #b060ff);
+  --accent-glow: rgba(176, 96, 255, 0.3);
+
+  --success: #4caf82;
+  --success-glow: rgba(76, 175, 130, 0.2);
+  --warning: #ffa040;
+  --warning-glow: rgba(255, 160, 64, 0.2);
+  --danger: #ff4060;
+  --danger-glow: rgba(255, 64, 96, 0.2);
+  --info: #60b4ff;
+  --info-glow: rgba(96, 180, 255, 0.2);
+
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0c0;
+  --text-muted: #606080;
+  --text-dim: #404060;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --border-bright: rgba(255, 255, 255, 0.15);
+  --glass-blur: blur(12px);
+  --glass-reflect: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 30px rgba(176, 96, 255, 0.12);
+  --shadow-card-hover: 0 12px 40px rgba(176, 96, 255, 0.2);
+  --shadow-card-hover-strong: 0 16px 48px rgba(176, 96, 255, 0.25);
+
+  --radius-lg: 20px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --radius-xs: 8px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 40px;
+  --space-10: 48px;
+  --space-12: 64px;
+
+  --text-xs: 0.65rem;
+  --text-sm: 0.75rem;
+  --text-base: 0.875rem;
+  --text-md: 0.9375rem;
+  --text-lg: 1rem;
+  --text-xl: 1.125rem;
+  --text-2xl: 1.25rem;
+  --text-3xl: 1.5rem;
+  --text-4xl: 2rem;
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  --duration-fast: 150ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+
+  --z-dropdown: 50;
+  --z-sticky: 100;
+  --z-fixed: 200;
+  --z-modal-backdrop: 300;
+  --z-modal: 350;
+  --z-popover: 400;
+  --z-tooltip: 500;
+  --z-toast: 600;
+  --z-loading: 9999;
+
+  --sidebar-width: 280px;
+  --sidebar-width-collapsed: 80px;
+  --sidebar-width-expanded: 280px;
+  --topbar-height: 56px;
+  --max-content-width: 1280px;
+}

@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: osu-hub-auth
+    runtime: node
+    plan: starter
+    region: oregon
+    branch: main
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: '20.11.1'
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: '4000'
+      - key: OSU_CLIENT_ID
+        sync: false
+      - key: OSU_CLIENT_SECRET
+        sync: false
+      - key: OSU_REDIRECT_URI
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: TRUST_PROXY
+        value: 'true'

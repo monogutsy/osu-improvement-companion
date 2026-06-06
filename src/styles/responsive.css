@@ -1,0 +1,76 @@
+@media (max-width: 880px) {
+  .landing__feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+  .app-main { margin-left: 0; }
+  .mobile-header { display: flex; }
+  .topbar { padding-top: 14px; margin-left: 0; }
+
+  .page-header,
+  .topbar,
+  .dashboard-grid,
+  .two-column-grid,
+  .filter-bar,
+  .three-column-grid { grid-template-columns: 1fr; flex-direction: column; align-items: stretch; }
+
+  .topbar__panel,
+  .planner-stats-bar,
+  .comparison-grid { min-width: 0; width: 100%; }
+
+  .planner-stats-bar,
+  .comparison-grid { grid-template-columns: 1fr; }
+
+  .stats-grid,
+  .milestone-grid,
+  .shortcut-grid,
+  .recommendation-grid,
+  .planner-grid,
+  .skin-grid,
+  .community-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .topbar__auth-pill,
+  .topbar__auth-status { display: none; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .shortcut-grid,
+  .recommendation-grid,
+  .skin-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .landing__feature-grid { grid-template-columns: 1fr; }
+  .landing__header { flex-direction: column; align-items: stretch; }
+  .landing__inner { gap: 48px; }
+}
+
+@media (max-width: 480px) {
+  .page-content,
+  .topbar { padding: 16px; }
+
+  .stats-grid,
+  .milestone-grid,
+  .shortcut-grid,
+  .recommendation-grid,
+  .planner-grid,
+  .skin-grid,
+  .community-grid { grid-template-columns: 1fr; }
+
+  .card {
+    display: block;
+    width: 100%;
+  }
+
+  .player-card { grid-template-columns: 1fr; }
+  .dashboard-profile-card__header,
+  .dashboard-profile-card__identity { flex-direction: column; align-items: stretch; }
+  .activity-item,
+  .beatmap-card__footer,
+  .form-actions { flex-direction: column; align-items: stretch; }
+}
